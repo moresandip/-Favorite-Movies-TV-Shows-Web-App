@@ -1,0 +1,12 @@
+-- Insert sample data
+INSERT INTO movies_tv_shows (title, type, director, budget, location, duration, year_time, genre, rating, description, video_url) VALUES
+('Inception', 'Movie', 'Christopher Nolan', '$160M', 'LA, Paris, Tokyo', '148 min', '2010', 'Sci-Fi Thriller', 8.8, 'A thief who steals corporate secrets through dream-sharing technology', 'https://www.youtube.com/watch?v=YoHD9XEInc0'),
+('Breaking Bad', 'TV Show', 'Vince Gilligan', '$3M/ep', 'Albuquerque, New Mexico', '49 min/ep', '2008-2013', 'Crime Drama', 9.5, 'A chemistry teacher turned methamphetamine manufacturer', 'https://www.youtube.com/watch?v=HhesaQXLuRY'),
+('The Dark Knight', 'Movie', 'Christopher Nolan', '$185M', 'Chicago, Pittsburgh', '152 min', '2008', 'Superhero Action', 9.0, 'Batman faces the Joker in this acclaimed superhero film', 'https://www.youtube.com/watch?v=EXeTwQWrcwY'),
+('Stranger Things', 'TV Show', 'The Duffer Brothers', '$8M/ep', 'Atlanta, Georgia', '50 min/ep', '2016-2022', 'Sci-Fi Horror', 8.7, 'Kids in a small town encounter supernatural forces', 'https://www.youtube.com/watch?v=b9EkMc79ZSU'),
+('Pulp Fiction', 'Movie', 'Quentin Tarantino', '$8.5M', 'Los Angeles', '154 min', '1994', 'Crime Drama', 8.9, 'Interconnected stories of crime in Los Angeles', 'https://www.youtube.com/watch?v=s7EdQ4FqbhY'),
+('Game of Thrones', 'TV Show', 'David Benioff & D.B. Weiss', '$15M/ep', 'Northern Ireland, Croatia', '57 min/ep', '2011-2019', 'Fantasy Drama', 9.2, 'Noble families vie for control of the Iron Throne', 'https://www.youtube.com/watch?v=rlR4PJn8b8I'),
+('The Matrix', 'Movie', 'The Wachowskis', '$63M', 'Sydney, Chicago', '136 min', '1999', 'Sci-Fi Action', 8.7, 'A computer hacker learns about the true nature of reality', 'https://www.youtube.com/watch?v=vKQi3bBA1y8'),
+('The Office', 'TV Show', 'Greg Daniels', '$500K/ep', 'Scranton, Pennsylvania', '22 min/ep', '2005-2013', 'Comedy', 8.9, 'A mockumentary about office workers in Scranton', 'https://www.youtube.com/watch?v=LHhbdXCzt_A'),
+('Interstellar', 'Movie', 'Christopher Nolan', '$165M', 'Alberta, Iceland', '169 min', '2014', 'Sci-Fi Drama', 8.6, 'A team of explorers travel through a wormhole in space', 'https://www.youtube.com/watch?v=zSWdZVtXT7E'),
+('Friends', 'TV Show', 'David Crane & Marta Kauffman', '$10M/ep', 'New York City', '22 min/ep', '1994-2004', 'Comedy', 8.9, 'Six friends navigate life and love in New York City', 'https://www.youtube.com/watch?v=hDNNmeeJs1Q');
